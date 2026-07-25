@@ -1,0 +1,11 @@
+D:\Aylanma baza\projects\InstallmentCRM_fixed\InstallmentCRM\InstallmentCRM.Shared\bin\Debug\net8.0\InstallmentCRM.Shared.deps.json
+D:\Aylanma baza\projects\InstallmentCRM_fixed\InstallmentCRM\InstallmentCRM.Shared\bin\Debug\net8.0\InstallmentCRM.Shared.dll
+D:\Aylanma baza\projects\InstallmentCRM_fixed\InstallmentCRM\InstallmentCRM.Shared\bin\Debug\net8.0\InstallmentCRM.Shared.pdb
+D:\Aylanma baza\projects\InstallmentCRM_fixed\InstallmentCRM\InstallmentCRM.Shared\obj\Debug\net8.0\InstallmentCRM.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aylanma baza\projects\InstallmentCRM_fixed\InstallmentCRM\InstallmentCRM.Shared\obj\Debug\net8.0\InstallmentCRM.Shared.AssemblyInfoInputs.cache
+D:\Aylanma baza\projects\InstallmentCRM_fixed\InstallmentCRM\InstallmentCRM.Shared\obj\Debug\net8.0\InstallmentCRM.Shared.AssemblyInfo.cs
+D:\Aylanma baza\projects\InstallmentCRM_fixed\InstallmentCRM\InstallmentCRM.Shared\obj\Debug\net8.0\InstallmentCRM.Shared.csproj.CoreCompileInputs.cache
+D:\Aylanma baza\projects\InstallmentCRM_fixed\InstallmentCRM\InstallmentCRM.Shared\obj\Debug\net8.0\InstallmentCRM.Shared.dll
+D:\Aylanma baza\projects\InstallmentCRM_fixed\InstallmentCRM\InstallmentCRM.Shared\obj\Debug\net8.0\refint\InstallmentCRM.Shared.dll
+D:\Aylanma baza\projects\InstallmentCRM_fixed\InstallmentCRM\InstallmentCRM.Shared\obj\Debug\net8.0\InstallmentCRM.Shared.pdb
+D:\Aylanma baza\projects\InstallmentCRM_fixed\InstallmentCRM\InstallmentCRM.Shared\obj\Debug\net8.0\ref\InstallmentCRM.Shared.dll

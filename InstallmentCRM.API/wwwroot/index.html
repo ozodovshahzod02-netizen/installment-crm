@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Гроссбух · InstallmentCRM</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div id="app">
+
+  <!-- ===================== AUTH SCREEN ===================== -->
+  <section id="auth-screen" class="auth-screen">
+    <div class="auth-card">
+      <div class="auth-brand">
+        <span class="ledger-mark">✎</span>
+        <div>
+          <h1>Гроссбух</h1>
+          <p>InstallmentCRM · учёт рассрочек</p>
+        </div>
+      </div>
+
+      <div class="auth-tabs">
+        <button class="auth-tab active" data-tab="login">Вход</button>
+        <button class="auth-tab" data-tab="register">Регистрация</button>
+      </div>
+
+      <form id="login-form" class="auth-form">
+        <label>Email
+          <input type="email" name="email" required autocomplete="username" />
+        </label>
+        <label>Пароль
+          <input type="password" name="password" required autocomplete="current-password" />
+        </label>
+        <p class="form-error" data-for="login"></p>
+        <button type="submit" class="btn btn-primary">Войти в гроссбух</button>
+      </form>
+
+      <form id="register-form" class="auth-form hidden">
+        <label>Полное имя
+          <input type="text" name="fullName" required />
+        </label>
+        <label>Email
+          <input type="email" name="email" required autocomplete="username" />
+        </label>
+        <label>Пароль
+          <input type="password" name="password" required minlength="6" autocomplete="new-password" />
+        </label>
+        <label>Роль
+          <select name="role">
+            <option value="Seller">Продавец</option>
+            <option value="Cashier">Кассир</option>
+            <option value="Manager">Менеджер</option>
+          </select>
+        </label>
+        <p class="form-error" data-for="register"></p>
+        <button type="submit" class="btn btn-primary">Открыть счёт</button>
+      </form>
+
+      <p class="auth-hint">Сервер: <code id="api-base-label"></code></p>
+    </div>
+  </section>
+
+  <!-- ===================== MAIN APP ===================== -->
+  <div id="main-screen" class="main-screen hidden">
+
+    <aside class="sidebar">
+      <div class="sidebar-brand">
+        <span class="ledger-mark">✎</span>
+        <span>Гроссбух</span>
+      </div>
+
+      <nav class="nav">
+        <button class="nav-item active" data-view="dashboard"><span class="nav-idx">01</span>Сводка</button>
+        <button class="nav-item" data-view="contracts"><span class="nav-idx">02</span>Договоры</button>
+        <button class="nav-item" data-view="payments"><span class="nav-idx">03</span>Платежи</button>
+        <button class="nav-item" data-view="customers"><span class="nav-idx">04</span>Клиенты</button>
+        <button class="nav-item" data-view="products"><span class="nav-idx">05</span>Товары</button>
+        <button class="nav-item" data-view="categories"><span class="nav-idx">06</span>Категории</button>
+      </nav>
+
+      <div class="sidebar-foot">
+        <div class="user-chip">
+          <div class="user-avatar" id="user-avatar">?</div>
+          <div>
+            <div class="user-email" id="user-email">—</div>
+            <div class="user-role" id="user-role">—</div>
+          </div>
+        </div>
+        <button id="logout-btn" class="btn btn-ghost">Выйти</button>
+      </div>
+    </aside>
+
+    <main class="content">
+      <header class="content-header">
+        <h2 id="view-title">Сводка</h2>
+        <div id="view-actions" class="view-actions"></div>
+      </header>
+
+      <div id="toast" class="toast hidden"></div>
+
+      <div id="view-root" class="view-root">
+        <!-- views render here -->
+      </div>
+    </main>
+  </div>
+
+</div>
+
+<!-- ===================== MODAL ===================== -->
+<div id="modal-backdrop" class="modal-backdrop hidden">
+  <div class="modal">
+    <div class="modal-head">
+      <h3 id="modal-title">—</h3>
+      <button id="modal-close" class="modal-close">×</button>
+    </div>
+    <div id="modal-body" class="modal-body"></div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

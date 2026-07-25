@@ -1,0 +1,17 @@
+D:\Aylanma baza\projects\InstallmentCRM_fixed\InstallmentCRM\InstallmentCRM.Application\bin\Debug\net8.0\InstallmentCRM.Application.deps.json
+D:\Aylanma baza\projects\InstallmentCRM_fixed\InstallmentCRM\InstallmentCRM.Application\bin\Debug\net8.0\InstallmentCRM.Application.dll
+D:\Aylanma baza\projects\InstallmentCRM_fixed\InstallmentCRM\InstallmentCRM.Application\bin\Debug\net8.0\InstallmentCRM.Application.pdb
+D:\Aylanma baza\projects\InstallmentCRM_fixed\InstallmentCRM\InstallmentCRM.Application\bin\Debug\net8.0\InstallmentCRM.Domain.dll
+D:\Aylanma baza\projects\InstallmentCRM_fixed\InstallmentCRM\InstallmentCRM.Application\bin\Debug\net8.0\InstallmentCRM.Shared.dll
+D:\Aylanma baza\projects\InstallmentCRM_fixed\InstallmentCRM\InstallmentCRM.Application\bin\Debug\net8.0\InstallmentCRM.Domain.pdb
+D:\Aylanma baza\projects\InstallmentCRM_fixed\InstallmentCRM\InstallmentCRM.Application\bin\Debug\net8.0\InstallmentCRM.Shared.pdb
+D:\Aylanma baza\projects\InstallmentCRM_fixed\InstallmentCRM\InstallmentCRM.Application\obj\Debug\net8.0\InstallmentCRM.Application.csproj.AssemblyReference.cache
+D:\Aylanma baza\projects\InstallmentCRM_fixed\InstallmentCRM\InstallmentCRM.Application\obj\Debug\net8.0\InstallmentCRM.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Aylanma baza\projects\InstallmentCRM_fixed\InstallmentCRM\InstallmentCRM.Application\obj\Debug\net8.0\InstallmentCRM.Application.AssemblyInfoInputs.cache
+D:\Aylanma baza\projects\InstallmentCRM_fixed\InstallmentCRM\InstallmentCRM.Application\obj\Debug\net8.0\InstallmentCRM.Application.AssemblyInfo.cs
+D:\Aylanma baza\projects\InstallmentCRM_fixed\InstallmentCRM\InstallmentCRM.Application\obj\Debug\net8.0\InstallmentCRM.Application.csproj.CoreCompileInputs.cache
+D:\Aylanma baza\projects\InstallmentCRM_fixed\InstallmentCRM\InstallmentCRM.Application\obj\Debug\net8.0\Installm.C70B8C10.Up2Date
+D:\Aylanma baza\projects\InstallmentCRM_fixed\InstallmentCRM\InstallmentCRM.Application\obj\Debug\net8.0\InstallmentCRM.Application.dll
+D:\Aylanma baza\projects\InstallmentCRM_fixed\InstallmentCRM\InstallmentCRM.Application\obj\Debug\net8.0\refint\InstallmentCRM.Application.dll
+D:\Aylanma baza\projects\InstallmentCRM_fixed\InstallmentCRM\InstallmentCRM.Application\obj\Debug\net8.0\InstallmentCRM.Application.pdb
+D:\Aylanma baza\projects\InstallmentCRM_fixed\InstallmentCRM\InstallmentCRM.Application\obj\Debug\net8.0\ref\InstallmentCRM.Application.dll

@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\InstallmentCRM.API",
+    "\\InstallmentCRM.API\\Properties",
+    "\\InstallmentCRM.Application",
+    "\\InstallmentCRM.Domain",
+    "\\InstallmentCRM.Infrastructure",
+    "\\InstallmentCRM.Infrastructure\\Identity"
+  ],
+  "SelectedNode": "\\InstallmentCRM.API",
+  "PreviewInSolutionExplorer": false
+}
