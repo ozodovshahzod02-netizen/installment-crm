@@ -270,8 +270,30 @@ const viewTitles = {
 let currentView = "dashboard";
 
 document.querySelectorAll(".nav-item").forEach((btn) => {
-  btn.addEventListener("click", () => navigateTo(btn.dataset.view));
+  btn.addEventListener("click", () => {
+    navigateTo(btn.dataset.view);
+    closeMobileMenu();
+  });
 });
+
+/* ------------------------- Mobile sidebar toggle ------------------------- */
+
+const sidebarEl = document.querySelector(".sidebar");
+const sidebarOverlay = document.getElementById("sidebar-overlay");
+const mobileMenuToggle = document.getElementById("mobile-menu-toggle");
+
+function openMobileMenu() {
+  sidebarEl.classList.add("open");
+  sidebarOverlay.classList.remove("hidden");
+}
+function closeMobileMenu() {
+  sidebarEl.classList.remove("open");
+  sidebarOverlay.classList.add("hidden");
+}
+mobileMenuToggle.addEventListener("click", () => {
+  sidebarEl.classList.contains("open") ? closeMobileMenu() : openMobileMenu();
+});
+sidebarOverlay.addEventListener("click", closeMobileMenu);
 
 function navigateTo(view) {
   currentView = view;
